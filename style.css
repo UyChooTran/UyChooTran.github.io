@@ -69,7 +69,12 @@ padding: 0;
 	display: inline;
 }
 
-.connect {
+/*#navigation ul li a{
+text-decoration: none;
+color: #000;
+}*/
+
+#connect {
 
 }
 
@@ -82,3 +87,13 @@ padding: 0;
 #connect img:hover {
 	transform: translate(0, -5px);
 }
+
+.nav{
+text-decoration: none;
+color: #000;
+}
+
+.active {
+text-decoration: underline;
+}
+
