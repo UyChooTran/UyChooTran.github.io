@@ -15,10 +15,10 @@
 	
 	<body>
 	    <div class="navigation">
-            <a href="#profile" title="Introduction"><img src="elements/NavBar/person.png" alt="Introduction"/></a>
-            <a href="#skills" title="Skills"><img src="elements/NavBar/skills.png" alt="Skills"/></a>
-            <a href="#education" title="Education"><img src="elements/NavBar/education.png" alt="Education"/></a>
-            <a href="#work" title="Work"><img src="elements/NavBar/work.png" alt="Work Experience"/></a>
+            <a href="#profile" title="Introduction"><img src="" alt="Introduction"/></a>
+            <a href="#skills" title="Skills"><img src="" alt="Skills"/></a>
+            <a href="#education" title="Education"><img src="" alt="Education"/></a>
+            <a href="#work" title="Work"><img src="" alt="Work Experience"/></a>
         </div>
         
 		<div class="header">
