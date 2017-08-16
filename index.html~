@@ -34,15 +34,18 @@
     		<a href="" >Education</a>
     		<a href="" >Volunteer Work</a>
     		<a href="" >Experience</a> 
+    		<a href="#connect" >Connect</a>
     	</div>
 
     	<div id="connect">
+    		<a id="connect">
     		<a href="https://www.linkedin.com/in/uy-tran/" title="Linkedin">
 				<img src="images/linkedin.png" alt="Linkedin"/>    		
     		</a>
     		<a href="https://github.com/UyChooTran" title="Github">
 				<img src="images/github.png" alt="Github"/>    		
-    		</a>    		
+    		</a>  
+    		</a>  		
     	</div>
 	</body>
 </html>
