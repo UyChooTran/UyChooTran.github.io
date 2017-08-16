@@ -29,20 +29,32 @@
     	</div>
     	
     	<div id="navigation">
-    		<a href="#header" >Top</a>
-    		<a href="" >Introduction</a>
-    		<a href="" >Education</a>
-    		<a href="" >Volunteer Work</a>
-    		<a href="" >Experience</a> 
+    		<ul>
+    			<li><a onclick="setActive(this)" class="active nav" href="#header" >Top</a></li>
+    			<li><a onclick="setActive(this)"class="nav" href="#intro" >Introduction</a></li>
+    			<li><a onclick="setActive(this)"class="nav" href="#edu" >Education</a></li>
+    			<li><a onclick="setActive(this)"class="nav" href="#volunteer" >Volunteer Work</a></li>
+    			<li><a onclick="setActive(this)"class="nav" href="exp" >Experience</a></li>
+    			<li><a onclick="setActive(this)"class="nav" href="#connect" >Connect</a></li>
+    		</ul>
+    	</div>
+    	
+    	<div id="Intro">
+		<a id="intro">
+		
+		</a>    	    	
     	</div>
 
     	<div id="connect">
+    		<a id="connect">
     		<a href="https://www.linkedin.com/in/uy-tran/" title="Linkedin">
 				<img src="images/linkedin.png" alt="Linkedin"/>    		
     		</a>
     		<a href="https://github.com/UyChooTran" title="Github">
 				<img src="images/github.png" alt="Github"/>    		
-    		</a>    		
+    		</a>  
+    		</a>  		
     	</div>
+    	<script src="scripts/scrolling.js"></script>
 	</body>
 </html>
