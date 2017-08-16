@@ -13,19 +13,29 @@
 	
 	</head>
 	
-	<body>
+	<body bgcolor="#f2f2f2">
         
 		<div class="header">
-        	<div id="header-text">
-            	<h1>Uy Tran</h1>
-         	   <p>Computer Engineer | Researcher | Leader</p>
-      	  </div>
+			<a id="header">
+        		<div id="header-text">
+            		<h1>Uy Tran</h1>
+         	   	<p>Computer Engineer | Researcher | Leader</p>
+      	  	</div>
+      	</a>
     	</div>
     	
     	<div>
     	
     	</div>
-    
+    	
+    	<div id="navigation">
+    		<a href="" >Top</a>
+    		<a href="" >Introduction</a>
+    		<a href="" >Education</a>
+    		<a href="" >Volunteer Work</a>
+    		<a href="" >Experience</a> 
+    	</div>
+
     	<div id="connect">
     		<a href="https://www.linkedin.com/in/uy-tran/" title="Linkedin">
 				<img src="images/linkedin.png" alt="Linkedin"/>    		

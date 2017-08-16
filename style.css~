@@ -1,3 +1,8 @@
+body{
+	margin: 0;
+	text-align: center;
+}
+
 h1 {
     font-family: "Saira";
     font-weight: bolder;
@@ -7,14 +12,16 @@ h1 {
 
 
 .header {
+  top: 0px;
   background-image: url("images/topBanner.jpg");
-  background-position: top;
+  background-position: center;
   opacity: 0.8;
   background-size: cover;
-  height: 400px;
+  height: 100%;
   width: 100%;
   background-attachment: fixed;
   vertical-align: bottom;
+  box-sizing: border-box;
 }
 
 .header #header-text {
@@ -34,11 +41,12 @@ h1 {
 	font-size: 20px;
 }
 
-.navigation {
+#navigation {
+	opacity: .8;
+	bottom: 0px;
     display: inline-block;
     padding: 5;
     min-width: 10px;
-    top: 0px;
     width: 100%;
     z-index: 10;
     text-align: center;
