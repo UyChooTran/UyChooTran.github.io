@@ -1,0 +1,60 @@
+h1 {
+    font-family: "Saira";
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+.header {
+  background-image: url("http://www.publicdomainpictures.net/pictures/150000/velka/tropical-beach-1454007190ZAK.jpg");
+  background-position: center;
+  opacity: 0.8;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  vertical-align: bottom;
+}
+
+.header #header-text {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 120px;
+    width: 60%;
+    color: black;
+    background: white;
+    opacity: 0.8;
+    min-width: 400px;
+}
+
+.header #header-text p{
+	font-family: "Saira";
+	font-size: 20px;
+}
+
+.navigation {
+    display: inline-block;
+    padding: 5;
+    min-width: 10px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    position: fixed;
+    background-color: rgba(0,0,0,0.85);
+}
+
+.connect {
+
+}
+
+#connect img {
+	height: 50px;
+	width:  50px;
+	margin: 10px;
+}
+
+#connect img:hover {
+	transform: translate(0, -5px);
+}
