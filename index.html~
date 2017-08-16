@@ -64,6 +64,9 @@
     		<a href="https://www.facebook.com/profile.php?id=100012405706299" title="Facebook">
 				<img src="images/facebook.png" alt="Facebook"/>    		
     		</a>  
+    		<a href="mailto:uytranwebsite@gmail.com" title="Email">
+				<img src="images/email.png" alt="Email"/>    		
+    		</a> 
     		</a>  		
     	</div>
     	<script src="scripts/scrolling.js"></script>

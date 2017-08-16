@@ -4,7 +4,6 @@ var setActive = function(obj){
 	for(var i = 0; i < navLinks.length; i++){
 		navLinks[i].className = "nav";
 	}
-	alert();
 	obj.className += " active";
 }
 
