@@ -40,6 +40,7 @@ a{
 }
 
 .header #header-text p{
+	color: #fff;
 	font-family: "Saira";
 	font-size: 20px;
 }
@@ -53,7 +54,7 @@ a{
     width: 100%;
     z-index: 10;
     text-align: center;
-    position: fixed;
+    position: absolute;
     background-color: #f2f2f2;
 }
 
@@ -96,5 +97,12 @@ color: #000;
 .active {
 text-decoration: underline;
 
+}
+
+#intro img{
+	 float: left;
+    border-style: solid;
+    border-color: rgb(255,255,255);
+    border-width: 0px 15px 15px 30px;
 }
 
