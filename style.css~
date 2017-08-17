@@ -12,7 +12,6 @@ h1 {
 h2{
 	text-align: center;
 	font-family: "Saira";
-	text-decoration: underline;
     font-size: 25px;
     margin: 10px;
     padding-top: 5;
@@ -20,6 +19,7 @@ h2{
 
 a{
 	font-family: "Saira";
+	text-decoration: none;
 }
 
 
@@ -88,21 +88,6 @@ height: 100%;
 width: 100%
 }
 
-#connect {
-width: 100%;
-text-align: center;
-}
-
-#connect img {
-	display: inline;
-	height: 60px;
-	width:  60px;
-	margin: 12px;
-}
-
-#connect img:hover {
-	transform: translate(0, -5px);
-}
 
 .nav{
 text-decoration: none;
@@ -119,5 +104,22 @@ text-decoration: underline;
     border-style: solid;
     border-color: #f2f2f2;
     border-width: 10px 15px 15px 30px;
+}
+
+#intro #connect {
+width: 100%;
+text-align: center;
+}
+
+#intro #connect img {
+	float: none;
+	display: inline;
+	height: 65px;
+	width:  65px;
+	margin: 15px;
+}
+
+#connect img:hover {
+	transform: translate(0, -5px);
 }
 
