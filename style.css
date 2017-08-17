@@ -15,6 +15,7 @@ h2{
 	text-decoration: underline;
     font-size: 25px;
     margin: 5px;
+    margin-top: 10px;
 }
 
 a{
@@ -67,13 +68,14 @@ a{
 }
 
 #navigation ul{
-margin: 0;
+margin: 5;
 padding: 0;
 }
 
 #navigation ul li{
-	padding-left: 2;
-	padding-right: 2;
+	padding: 5;
+	/*padding-left: 2;
+	padding-right: 2;*/
 	list-style: none;
 	display: inline;
 }
