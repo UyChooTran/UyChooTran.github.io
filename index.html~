@@ -39,20 +39,27 @@
     		</ul>
     	</div>
     	
-    	<div id="intro">
+    	<div id="intro" class="section">
 		<a id="intro">
+			<h2>Introduction</h2>
 			<img src="images/UyTranPic.jpg" alt=""/>
 			<p>
-			<br>Hello World!
+			Hello World!
 			<br><br>My name is Uy Tran. I am a Computer Engineering undergraduate at the University of California, Riverside.
-			<br><br>After stumbling on various coding resources online, I became thrilled to discover the incredible world of programming and solving problems.
-			With the completion of my high school's AP Computer Science class, I set off to college to pursue my goal of working in the computer engineering industry.
-			 <br><br>My website is a work in progress, so make sure to check back again.
-			 <br>Feel free to connect or reach out to me via the links below.
+			<br><br>After stumbling on various coding resources online, I became thrilled to discover the incredible world of programming.
+			With the completion of my high school's AP Computer Science class, I became excited to solve problems while designing my own 
+			code and set off to college to pursue my goal of working in the computer engineering industry.
+			 <br><br>&nbsp&nbspMy website is a work in progress, so make sure to check back again.
+			 <br>&nbsp&nbspFeel free to connect or reach out to me via the links below.
 			</p>
 		</a>    	    	
     	</div>
-
+    	
+		
+		<div>
+		
+		
+		</div>
     	<div id="connect">
     		<a id="connect">
     		<a href="https://www.linkedin.com/in/uy-tran/" title="Linkedin">

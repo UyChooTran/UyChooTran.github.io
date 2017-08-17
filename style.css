@@ -9,6 +9,14 @@ h1 {
     margin: 0;
 }
 
+h2{
+	text-align: center;
+	font-family: "Saira";
+	text-decoration: underline;
+    font-size: 25px;
+    margin: 5px;
+}
+
 a{
 	font-family: "Saira";
 }
@@ -49,7 +57,7 @@ a{
 	opacity: .8;
 	bottom: 0px;
     display: inline-block;
-    padding: 5;
+
     min-width: 10px;
     width: 100%;
     z-index: 10;
@@ -103,6 +111,10 @@ text-decoration: underline;
 	 float: left;
     border-style: solid;
     border-color: #f2f2f2;
-    border-width: 0px 15px 15px 30px;
+    border-width: 10px 15px 15px 30px;
 }
 
+.section{
+height: 100%;
+width: 100%
+}
