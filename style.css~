@@ -94,7 +94,7 @@ text-align: center;
 }
 
 #connect img {
-	display: block;
+	display: inline;
 	height: 60px;
 	width:  60px;
 	margin: 12px;
