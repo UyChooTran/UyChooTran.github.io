@@ -14,8 +14,8 @@ h2{
 	font-family: "Saira";
 	text-decoration: underline;
     font-size: 25px;
-    margin: 5px;
-    margin-top: 10px;
+    margin: 10px;
+    padding-top: 5;
 }
 
 a{
@@ -29,8 +29,6 @@ a{
   background-position: center;
   opacity: 0.8;
   background-size: cover;
-  height: 100%;
-  width: 100%;
   background-attachment: fixed;
   vertical-align: bottom;
   box-sizing: border-box;
@@ -69,7 +67,7 @@ a{
 
 #navigation ul{
 margin: 5;
-padding: 0;
+padding: 2;
 }
 
 #navigation ul li{
@@ -85,14 +83,21 @@ text-decoration: none;
 color: #000;
 }*/
 
-#connect {
+.section{
+height: 100%;
+width: 100%
+}
 
+#connect {
+width: 100%;
+text-align: center;
 }
 
 #connect img {
-	height: 50px;
-	width:  50px;
-	margin: 10px;
+	display: inline;
+	height: 60px;
+	width:  60px;
+	margin: 12px;
 }
 
 #connect img:hover {
@@ -116,7 +121,3 @@ text-decoration: underline;
     border-width: 10px 15px 15px 30px;
 }
 
-.section{
-height: 100%;
-width: 100%
-}

@@ -15,7 +15,7 @@
 	
 	<body bgcolor="#f2f2f2">
         
-		<div class="header">
+		<div class="header section">
 			<a id="header">
         		<div id="header-text">
             		<h1>Uy Tran</h1>
@@ -30,8 +30,8 @@
     	
     	<div id="navigation">
     		<ul>
-    			<li><a onclick="setActive(this)" class="active nav" href="#header" >Top</a></li>
-    			<li><a onclick="setActive(this)" class="nav" href="#intro" >Introduction</a></li>
+    			<li><a onclick="toScroll(0)" class="active nav" href="javascript:;" >Top</a></li>
+    			<li><a onclick="toScroll(1)" class="nav" href="javascript:;" >Introduction</a></li>
     			<li><a onclick="setActive(this)" class="nav" href="#edu" >Education</a></li>
     			<li><a onclick="setActive(this)" class="nav" href="#volunteer" >Volunteer Work</a></li>
     			<li><a onclick="setActive(this)" class="nav" href="#exp" >Experience</a></li>
@@ -42,13 +42,14 @@
     	<div id="intro" class="section">
 		<a id="intro">
 			<h2>Introduction</h2>
-			<img src="images/UyTranPic.jpg" alt=""/>
+			<img src="images/UyTranPic.jpg" alt="Picture of Uy"/>
 			<p>
 			Hello World!
-			<br><br>My name is Uy Tran. I am a Computer Engineering undergraduate at the University of California, Riverside.
+			<br><br>My name is Uy Tran. I am a <strong>Computer Engineering</strong> undergraduate at the University of California, Riverside.
 			<br><br>After stumbling on various coding resources online, I became thrilled to discover the incredible world of programming.
-			With the completion of my high school's AP Computer Science class, I became excited to solve problems while designing my own 
-			code and set off to college to pursue my goal of working in the computer engineering industry.
+			With the completion of my high school's AP Computer Science class, I became excited to <strong>creatively solve problems</strong>
+			 while designing my own code.
+			 <br>In addition, I had the fortune to discover <strong>amateur radio</strong> to learn the fundamentals of electrical engineering.
 			 <br><br>&nbsp&nbspMy website is a work in progress, so make sure to check back again.
 			 <br>&nbsp&nbspFeel free to connect or reach out to me via the links below.
 			</p>
