@@ -57,7 +57,8 @@
 		
 		    	<div id="connect">
     		<a id="connect">
-    		    		<a href="mailto:uytranwebsite@gmail.com" title="Email">
+    		
+    		<a href="mailto:uytranwebsite@gmail.com" title="Email">
 				<img src="images/email.png" alt="Email"/>    		
     		</a> 
     		<a href="https://www.linkedin.com/in/uy-tran/" title="Linkedin">
@@ -69,9 +70,7 @@
     		<a href="https://www.facebook.com/profile.php?id=100012405706299" title="Facebook">
 				<img src="images/facebook.png" alt="Facebook"/>    		
     		</a>  
-    		<a href="mailto:uytranwebsite@gmail.com" title="Email">
-				<img src="images/email.png" alt="Email"/>    		
-    		</a> 
+
     		</a>  		
     	</div>    	    	
     	</div>
