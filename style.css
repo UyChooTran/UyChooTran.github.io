@@ -12,14 +12,61 @@ h1 {
 h2{
 	text-align: center;
 	font-family: "Saira";
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px;
     padding-top: 5;
 }
 
+h3{
+	text-align: center;
+	font-family: "Saira";
+   font-size: 25px;
+   margin: 10px;
+   padding-top: 5;
+}
 a{
 	font-family: "Saira";
 	text-decoration: none;
+}
+
+p{
+	font-family: "Saira";
+	font-size: 20px;
+}
+
+table{
+	margin: 0 auto;
+	font-family: "Saira";
+	width: 100%;
+	display: table;
+}
+
+tbody{
+		margin: 0 auto;
+	font-family: "Saira";
+}
+
+tr{
+	width: 100%;
+}
+
+th{
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	font-family: "Saira";
+	font-size: 25px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+td{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: left;
+	font-family: "Saira";
+	float: inherit;
+	font-size: 20px;
 }
 
 
@@ -49,7 +96,7 @@ a{
 .header #header-text p{
 	color: #fff;
 	font-family: "Saira";
-	font-size: 20px;
+	font-size: 22px;
 }
 
 #navigation {
@@ -66,11 +113,13 @@ a{
 }
 
 #navigation ul{
-margin: 5;
+margin: 10;
 padding: 2;
 }
 
 #navigation ul li{
+	font-family: "Saira";
+	font-size: 18px;
 	padding: 5;
 	/*padding-left: 2;
 	padding-right: 2;*/
@@ -112,14 +161,19 @@ text-align: center;
 }
 
 #intro #connect img {
+	text-align: center;
 	float: none;
 	display: inline;
 	height: 65px;
 	width:  65px;
 	margin: 15px;
+	margin-top: 0;
 }
 
 #connect img:hover {
 	transform: translate(0, -5px);
 }
 
+#volunteer{
+text-align: center;
+}

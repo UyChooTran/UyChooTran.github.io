@@ -27,7 +27,7 @@ window.onscroll = function () {
 	
 	var hite = sections[0].offsetHeight;
 	
-	setActive(navLinks[Math.floor((navBar.offsetHeight*2 +currentScroll)/hite)]);
+	setActive(navLinks[Math.floor((hite/2 +currentScroll)/hite)]);
 	
 	
 }
