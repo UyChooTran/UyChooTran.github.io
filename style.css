@@ -1,3 +1,7 @@
+html *{
+	font-family: "Saira" !important;
+}
+
 body{
 	margin: 0;
 }
@@ -18,11 +22,13 @@ h2{
 }
 
 h3{
+	margin: 0 auto;
 	text-align: center;
+	width: 100%;
 	font-family: "Saira";
-   font-size: 25px;
-   margin: 10px;
-   padding-top: 5;
+	font-size: 25px;
+	font-weight: normal;
+	text-decoration: underline;
 }
 a{
 	font-family: "Saira";
@@ -32,41 +38,8 @@ a{
 p{
 	font-family: "Saira";
 	font-size: 20px;
-}
-
-table{
-	margin: 0 auto;
-	font-family: "Saira";
-	width: 100%;
-	display: table;
-}
-
-tbody{
-		margin: 0 auto;
-	font-family: "Saira";
-}
-
-tr{
-	width: 100%;
-}
-
-th{
-	margin: 0 auto;
-	text-align: center;
-	width: 100%;
-	font-family: "Saira";
-	font-size: 25px;
-	font-weight: normal;
-	text-decoration: underline;
-}
-
-td{
-	display: inline-block;
-	margin: 0 auto;
-	text-align: left;
-	font-family: "Saira";
-	float: inherit;
-	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 
@@ -101,7 +74,7 @@ td{
 
 #navigation {
 	opacity: .8;
-	bottom: 0px;
+	bottom: 0%;
     display: inline-block;
 
     min-width: 10px;
@@ -114,6 +87,7 @@ td{
 
 #navigation ul{
 margin: 10;
+margin-bottom: 5;
 padding: 2;
 }
 
@@ -147,12 +121,20 @@ color: #000;
 text-decoration: underline;
 
 }
+#intro{
+
+}
 
 #intro img{
 	 float: left;
     border-style: solid;
-    border-color: #f2f2f2;
-    border-width: 10px 15px 15px 30px;
+    border-color: transparent;
+    border-width: 15px;
+}
+
+#intro p{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 #intro #connect {
@@ -174,6 +156,85 @@ text-align: center;
 	transform: translate(0, -5px);
 }
 
+#skills li{
+	font-size: 20px;
+}
+
+#skills .outermost{
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	margin: 1.28%;
+}
+
+#skills .middle{
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	margin: 5px;
+}
+
+#skills .inner{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 5px;
+	padding: 5;
+}
+
+#skills #courses{
+	width: 30%;
+	float: left;
+}
+
+#skills #software{
+	width: 30%;
+	display: inline-block;
+}
+
+#skills #languages{
+	width: 30%;
+	float:right;
+}
+
 #volunteer{
-text-align: center;
+	display: table;
+	line-height: 2.5;
+}
+
+#volunteer img{
+	width: 30%;
+	height: auto;
+	border-style: solid;
+   border-color: transparent;
+   border-width: 15px;
+   border-bottom-width: 35px;
+}
+
+#volunteer div{
+	display: table-cell;
+	
+}
+
+#volunteer div p{
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#volunteer .odd img{
+	float: left;
+}
+
+#volunteer .even img{
+	float: right;
+}
+
+
+#experience .date{
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	text-align: right;
 }

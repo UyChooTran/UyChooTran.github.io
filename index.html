@@ -1,6 +1,7 @@
 <!DOCTYPE_HTML>
 <html>
 	<head>
+	<meta charset="UTF-8">
 	<title>Uy Tran</title>
 	
 	<!-- Stylesheet -->
@@ -32,7 +33,7 @@
     		<ul>
     			<li><a onclick="toScroll(0)" class="active nav" href="javascript:;" >Top</a></li>
     			<li><a onclick="toScroll(1)" class="nav" href="javascript:;" >Introduction</a></li>
-    			<li><a onclick="toScroll(2)" class="nav" href="javascript:;" >Education</a></li>
+    			<li><a onclick="toScroll(2)" class="nav" href="javascript:;" >Coursework/Skills</a></li>
     			<li><a onclick="toScroll(3)" class="nav" href="javascript:;" >Volunteer Work</a></li>
     			<li><a onclick="toScroll(4)" class="nav" href="javascript:;" >Experience</a></li>
     			<li><a onclick="toScroll(1)" class="nav" href="javascript:;" >Connect</a></li>
@@ -41,15 +42,18 @@
     	
     	<div id="intro" class="section">
 		<a id="intro">
+			<br>
 			<h2>Introduction</h2>
 			<img src="images/UyTranPic.jpg" alt="Picture of Uy"/>
 			<p>
 			Hello World!
-			<br><br>My name is Uy Tran. I am a Computer Engineering undergraduate at the University of California, Riverside.
+			<br><br>My name is Uy Tran. I am a 2nd year undergraduate at the University of California, Riverside pursuing a major in Computer Engineering.
+			I expect to graduate in 2020 with a B.S. or to continue on and pursue a M.S.
 			<br><br>After stumbling on various coding resources online, I became thrilled to discover the incredible world of programming.
-			With the completion of my high school's AP Computer Science class, I became excited to creatively solve problems
+			With the completion of my high school's AP Computer Science class, I became excited to solve problems creatively
 			 while designing my own code.
-			 <br>In addition, I had the fortune to discover amateur radio to learn the fundamentals of electrical engineering.
+			 <br>In addition, I had the fortune to discover amateur radio. This led to me learning the fundamentals of electrical engineering
+			 and getting my amateur radio license (KK6SEC).
 			 <br><br>This is my personal website that I've built from scratch. It still is a work in progress, so make sure to check back again.
 			 <br>Feel free to connect or reach out to me via the links below.
 			</p>
@@ -76,11 +80,102 @@
     	</div>
     	
 		
-		<div id="education">
-			
-		
+		<div id="skills" class="section">
+		<a id="skill">
+			<br>
+			<h2>Coursework/Skills</h2>
+			<div id="courses" class="outermost">
+			<div class="middle">
+			<div class="inner">
+			<h3>Courses</h3>
+			<ul>
+				<li>AP Computer Science</li>
+				<li>C++ Object Oriented Programming</li>
+				<li>Data Structures and Algorithms</li>
+				<li>Discrete Structures</li>			
+			</ul>
+			</div>
+			</div>
+			</div>
+			<div id="software" class="outermost">
+			<div class="middle">
+			<div class="inner">			
+			<h3>Software</h3>
+			<ul>
+				<li>Github</li>
+				<li>Vim</li>
+				<li>Windows</li>
+				<li>Linux</li>
+				<li>Raspberry Pi</li>
+				<li>Unity</li>
+				<li>Django</li>			
+			</ul>
+			</div>
+			</div>
+			</div>
+			<div id="languages" class="outermost">
+			<div class="middle">
+			<div class="inner">			
+			<h3>Languages</h3>
+			<ul>
+				<li>JavaScript</li>
+				<li>C++</li>
+				<li>Java</li>
+				<li>HTML/CSS</li>			
+			</ul>
+			</div>
+			</div>
+			</div>
+		</a>		
 		</div>
-
+		
+		<div id="volunteer" class="section">
+		<a id="vol">
+			<h2>Volunteer Work</h2>			
+			<h3>IEEE Merit Badge Day</h3>
+			<div class="odd">
+			<img src="images/meritBadge.jpg" alt="Me at Merit Badge Day">
+			<p><br>Merit Badge Day, hosted at UCR, focuses on enabling Boy Scouts to earn various STEM-related patches by allowing them to
+					learn about certain topics. At these events, volunteers teach over 150 attendees about engineering and STEM related fields 
+					such as Robotics, Electronics, and Digital Technologies.
+			</p>
+			</div>
+			<h3>Bourn's College of Engineering Day</h3>
+			<div class="even">
+			<img src="images/BCEDay.jpg" alt="BCE Day">
+			<p><br>BCE Day, organized by the Society of Women Engineers chapter at UCR is an annual event that focuses on piquing interest in children 
+			for science and engineering fields. Hosting over 1000 attendees, volunteers engage in activities with many different people.
+			</p>
+			</div>
+		</a>		
+		</div>
+		<!--
+		<div id="experience" class="section">
+			<h2>Experience</h2>
+			<br>
+			<h3>Employment</h3>
+			<div>
+			<p>
+			<strong>University of California, Riverside</strong>
+			<span class="date">February 2017 - Current</span>
+			<br><i>Undergraduate Student Research Assistant</i>
+			<br>sadasdas
+			</p>
+			<p>
+			<strong>University of California, Riverside</strong>
+			<span class="date">June 2017 - July 2017</span>
+			<br><i>CS4ALL Coding Camp Teacher Assistant</i>
+			<br>Help teach high school age students programming and computer science concepts, leading up to a final project of creating an app.
+			</p>
+			</div>
+			
+			<h3>Projects</h3>
+			<div>
+			
+			</div>
+		</div>
+		-->
+		
     	<script src="scripts/scrolling.js"></script>
     	<script>window.onblur = function() {
             document.title = 'Uy miss you!';
